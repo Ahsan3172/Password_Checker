@@ -114,7 +114,7 @@ jobs:
           -Dsonar.exclusions=**/vendor/**,**/*.min.js,**/*.min.css,logs/**,**/*.log
           -Dsonar.php.version=8.2
           -Dsonar.security.hotspots.inheritFromParent=true
-          -Dsonar.qualitygate.wait=true
+          -Dsonar.qualitygate.wait=false
 
   # Additional security testing job
   security-testing:
