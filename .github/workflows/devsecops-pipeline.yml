@@ -107,8 +107,8 @@ jobs:
       with:
         # Additional arguments can be passed here
         args: >
-          -Dsonar.projectKey=Nomanriaz786_password_checker_tool
-          -Dsonar.organization=nomanriaz786
+          -Dsonar.projectKey=Ahsan3172_Password_Checker
+          -Dsonar.organization=ahsan3172
           -Dsonar.php.coverage.reportPaths=coverage/coverage.xml
           -Dsonar.sources=.
           -Dsonar.exclusions=**/vendor/**,**/*.min.js,**/*.min.css,logs/**,**/*.log
@@ -171,7 +171,7 @@ jobs:
         echo "- **Baseline Security**: Scan completed" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "### 📊 View Results" >> $GITHUB_STEP_SUMMARY
-        echo "- [SonarCloud Dashboard](https://sonarcloud.io/project/overview?id=Nomanriaz786_password_checker_tool)" >> $GITHUB_STEP_SUMMARY
+        echo "- [SonarCloud Dashboard](https://sonarcloud.io/project/overview?id=Ahsan3172_Password_Checker)" >> $GITHUB_STEP_SUMMARY
         echo "- [GitHub Security Tab](https://github.com/${{ github.repository }}/security)" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "### 🎯 Next Steps" >> $GITHUB_STEP_SUMMARY
